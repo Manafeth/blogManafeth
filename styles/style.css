@@ -112,7 +112,10 @@ font-size: 16px;
 line-height: 46px;
 text-align: center;
 color:var(--color-white);
-
+}
+.btn-subscribe:hover {
+  background-color:var(--color-light);
+  color:var(--color-primary);
 }
 /* end of HEADER SECTION */
 
@@ -251,8 +254,8 @@ border-radius: 12px;
 color:var(--color-white)
 }
 .control-btn:hover {
-  background-color:var(--color-light) !important;
-  color:var(--color-primary) !important;
+  background-color:var(--color-gray-secondary);
+  color:var(--color-primary);
 }
 /**************************/
 /* end of Control SECTION */
