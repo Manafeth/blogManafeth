@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   /* Only works if there is nothing absolutely positioned in relation to body */
   background-color:var(--color-secondry);
+  overflow-x: hidden;
 }
 a, a:hover {
   text-decoration: none;
@@ -177,7 +178,8 @@ color: #242424;
 .page-link {
   border-radius: 50%;
   border: 2px solid #1995AD;
-  margin:5px
+  margin:5px;
+  color:#1995AD;
 }
 .page-item:first-child .page-link {
  border-top-left-radius: 50% !important; 
@@ -249,8 +251,8 @@ border-radius: 12px;
 color:var(--color-white)
 }
 .control-btn:hover {
-  background-color:var(--color-light);
-  color:var(--color-primary)
+  background-color:var(--color-light) !important;
+  color:var(--color-primary) !important;
 }
 /**************************/
 /* end of Control SECTION */
