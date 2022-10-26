@@ -302,8 +302,8 @@ font-size:16px;
 font-weight:600
 }
 .btn-category:hover {
-  background-color:var(--color-light);
-  color:var(--color-primary)
+  background-color:var(--color-hover);
+  color:var(--color-white)
 }
 .blog-title{
 font-weight: 600;
@@ -314,6 +314,14 @@ letter-spacing: 0.1em;
 width: 75%;
 margin:0 auto;
 }
+.blog-title-rtl{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  width: 75%;
+  margin:0 auto;
+  }
 .blog-text{
 font-weight: 400;
 font-size: 18px;
@@ -328,6 +336,11 @@ font-size: 24px;
 line-height: 32px;
 letter-spacing: 0.1em;
 }
+.head-title-rtl{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  }
 .author-subTitle {
 font-weight: 500;
 font-size: 18px;
