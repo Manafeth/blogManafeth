@@ -189,18 +189,19 @@ color: #242424;
   border: 2px solid #1995AD;
   margin:5px;
   color:#1995AD;
+  background-color: rgba(25,149,173,0.1);
 }
 .page-item:first-child .page-link {
- border-top-left-radius: 50% !important; 
- border-bottom-left-radius: 50% !important;
- border-top-right-radius: 50% !important; 
- border-bottom-right-radius: 50% !important;
+ border-radius: 50% !important;
 }
 .page-item:last-child .page-link {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius:50%;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius:50%;
+  border-radius: 50% !important;
+}
+.page-link:hover {
+    z-index: 2;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border-color: var(--bs-pagination-hover-border-color);
 }
 
 .card-small{
