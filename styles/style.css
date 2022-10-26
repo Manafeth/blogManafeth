@@ -30,6 +30,7 @@ a, a:hover {
   --color-footer:#F1F1F1;
   --color-copyright:#b6b6b6;
   --color-light:#FFF7E5;
+  --color-hover:#0D788C;
 }
 
 /**************************/
@@ -68,17 +69,22 @@ a, a:hover {
 .header-title{
   font-size:40px;
   font-weight: 600;
-  width:76%
+  text-align: left;
+}
+.header-title-rtl{
+  font-size:40px;
+  font-weight: 600;
+  text-align: right;
 }
 .header-text{
   font-size:16px;
   font-weight:400;
-  width:93%;
+  text-align: left;
 }
 .header-text-rtl {
   font-size: 16px;
   font-weight: 400;
-  width:93%;
+  text-align: right;
 }
 
 .main-btn {
@@ -89,8 +95,8 @@ a, a:hover {
   color:var(--color-white);
 }
 .main-btn:hover {
-  background-color:var(--color-light);
-  color:var(--color-primary)
+  background-color:var(--color-hover);
+  color:var(--color-white)
 }
 .subscribe-input{
 width: 312px;
@@ -114,8 +120,8 @@ text-align: center;
 color:var(--color-white);
 }
 .btn-subscribe:hover {
-  background-color:var(--color-light);
-  color:var(--color-primary);
+    background-color:var(--color-hover);
+    color:var(--color-white)
 }
 /* end of HEADER SECTION */
 
@@ -254,8 +260,8 @@ border-radius: 12px;
 color:var(--color-white)
 }
 .control-btn:hover {
-  background-color:var(--color-gray-secondary);
-  color:var(--color-primary);
+  background-color:var(--color-hover);
+  color:var(--color-white)
 }
 /**************************/
 /* end of Control SECTION */
@@ -359,16 +365,7 @@ color: #888888;
     margin-top: 5px;
 }
 
-.header-title {
-  font-size: 32px;
-  font-weight: 600;
-  width: 100%;
-}
-.header-text {
-  font-size: 16px;
-  font-weight: 400;
-  width: 100%;
-}
+
 
 .header-input{
   flex-wrap:wrap;
@@ -399,11 +396,7 @@ color: #888888;
   left: 52%;
   transform: translate(-50%, -50%);
 }
-.header-text-rtl {
-    font-size: 16px;
-    font-weight: 400;
-    width: 87%;
-}
+
 .control-content {
   position: absolute;
   top: 50%;
